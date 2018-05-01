@@ -1,0 +1,9 @@
+c:\users\max\documents\visual studio 2015\Projects\TicTacToeWinForm\TicTacToeWinForm\bin\Debug\TicTacToeWinForm.exe.config
+C:\Users\Max\Documents\Visual Studio 2015\Projects\TicTacToeWinForm\TicTacToeWinForm\bin\Debug\TicTacToeWinForm.exe
+C:\Users\Max\Documents\Visual Studio 2015\Projects\TicTacToeWinForm\TicTacToeWinForm\bin\Debug\TicTacToeWinForm.pdb
+C:\Users\Max\Documents\Visual Studio 2015\Projects\TicTacToeWinForm\TicTacToeWinForm\obj\Debug\TicTacToeWinForm.csprojResolveAssemblyReference.cache
+C:\Users\Max\Documents\Visual Studio 2015\Projects\TicTacToeWinForm\TicTacToeWinForm\obj\Debug\TicTacToeWinForm.Form1.resources
+C:\Users\Max\Documents\Visual Studio 2015\Projects\TicTacToeWinForm\TicTacToeWinForm\obj\Debug\TicTacToeWinForm.Properties.Resources.resources
+C:\Users\Max\Documents\Visual Studio 2015\Projects\TicTacToeWinForm\TicTacToeWinForm\obj\Debug\TicTacToeWinForm.csproj.GenerateResource.Cache
+C:\Users\Max\Documents\Visual Studio 2015\Projects\TicTacToeWinForm\TicTacToeWinForm\obj\Debug\TicTacToeWinForm.exe
+C:\Users\Max\Documents\Visual Studio 2015\Projects\TicTacToeWinForm\TicTacToeWinForm\obj\Debug\TicTacToeWinForm.pdb

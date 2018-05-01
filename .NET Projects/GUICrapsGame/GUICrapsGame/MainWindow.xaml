@@ -1,0 +1,98 @@
+﻿<Window x:Name="Craps_Game" x:Class="GUICrapsGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUICrapsGame"
+        mc:Ignorable="d"
+        Title="Max's Craps Game" Height="421.186" Width="880.345" Background="#FF006609" Closing="Craps_Game_Closing" Topmost="True">
+    <Grid>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="862" Background="White" IsMainMenu="True">
+
+            <MenuItem Header="_Game" >
+                <MenuItem x:Name="StartGameButton" Header="_Start Game" Click="StartGameButton_Click">
+
+                </MenuItem>
+                <MenuItem x:Name="ResetSession" Header="_Reset Session" Click="ResetSession_Click">
+
+                </MenuItem>
+                <MenuItem x:Name="ExitMenuItem" Header="_Exit App" Click="ExitMenuItem_Click">
+
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem x:Name="_About_MenuItem" Header="_About" Click="About_MenuItem_Click">
+
+                </MenuItem>
+                <MenuItem x:Name="_RulesMenuItem" Header="_Rules of Craps" Click="RulesMenuItem_Click" />
+                <MenuItem x:Name="_ProgramInfoItem" Header="How To Play This Game" Click="_ProgramInfoItem_Click"/>
+
+            </MenuItem>
+
+
+        </Menu>
+        <GroupBox x:Name="Current_Roll" Header="Current Roll" HorizontalAlignment="Left" Margin="564,25,0,0" VerticalAlignment="Top" Height="224" Width="229" Foreground="White" Visibility="Hidden">
+            <Grid HorizontalAlignment="Left" Height="203" Margin="0,0,-2,-1" VerticalAlignment="Top" Width="219">
+                <Label x:Name="Die1Label" Content="Die 1" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top" Foreground="White"/>
+                <TextBox x:Name="Die1Box" HorizontalAlignment="Left" Height="23" Margin="78,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" IsReadOnly="True"/>
+                <Label x:Name="Die2Label" Content="Die 2" HorizontalAlignment="Left" Margin="27,50,0,0" VerticalAlignment="Top" Foreground="White"/>
+                <TextBox x:Name="Die2Box" HorizontalAlignment="Left" Height="23" Margin="78,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" IsReadOnly="True"/>
+                <Label x:Name="label" Content="Total" HorizontalAlignment="Left" Margin="27,107,0,0" VerticalAlignment="Top" Foreground="White"/>
+                <TextBox x:Name="TotalBox" HorizontalAlignment="Left" Height="23" Margin="78,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" IsReadOnly="True"/>
+                <TextBox x:Name="PointBox" HorizontalAlignment="Left" Height="23" Margin="78,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" Visibility="Hidden"/>
+                <Label x:Name="PointLabel" Content="Point" HorizontalAlignment="Left" Margin="27,167,0,0" VerticalAlignment="Top" Foreground="White" Visibility="Hidden"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="WinTotalsBox" Header="Win Totals" HorizontalAlignment="Left" Margin="564,249,0,0" VerticalAlignment="Top" Height="131" Width="229" Foreground="White" Visibility="Hidden">
+            <Grid HorizontalAlignment="Left" Height="114" Margin="0,0,-6,-22" VerticalAlignment="Top" Width="223">
+                <Label x:Name="PlayerWinsLabel" Content="Player" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White"/>
+                <Label x:Name="HouseWinsLabel" Content="House" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Foreground="White"/>
+                <TextBox x:Name="PlayerWinsBox" HorizontalAlignment="Left" Height="23" Margin="93,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" IsReadOnly="True"/>
+                <TextBox x:Name="HouseWinsBox" HorizontalAlignment="Left" Height="23" Margin="93,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" IsReadOnly="True"/>
+                <Label x:Name="label1" Content="Current Bank" HorizontalAlignment="Left" Margin="10,78,0,0" VerticalAlignment="Top" Foreground="White"/>
+                <TextBox x:Name="BankBox" HorizontalAlignment="Left" Height="23" Margin="94,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" IsReadOnly="True"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="GameInfo" Header="" HorizontalAlignment="Left" Margin="86,37,0,0" VerticalAlignment="Top" Height="291" Width="707">
+            <GroupBox.BorderBrush>
+                <SolidColorBrush Color="#FFD5DFE5" Opacity="0.035"/>
+            </GroupBox.BorderBrush>
+            <Grid x:Name="IntroBoxGrid" HorizontalAlignment="Left" Height="281" VerticalAlignment="Top" Width="707" Margin="0,0,-12,-12">
+                <Label x:Name="Introduction" Content="Hello User! Welcome to Max's Craps Game" HorizontalAlignment="Left" Margin="122,10,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Times New Roman" FontSize="26.667"/>
+                <Label x:Name="IntroPart2" Content="If this is your first time playing, I highly recommend you read the Rules Of Craps &#xD;&#xA;&#x9;&#x9;and How To Play Sections in the help menu" HorizontalAlignment="Left" Margin="32,51,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Times New Roman" FontSize="18.667" Height="59" Width="665" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label x:Name="IntroPart3" Content="Otherwise, Please Enter a Bank Amount below then hit the Start Game Button&#xD;&#xA;&#x9;         or click the start game button in the Game menu" HorizontalAlignment="Left" Margin="20,145,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Times New Roman" FontSize="18.667" Height="59" Width="665" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="BankAmountBox" HorizontalAlignment="Left" Height="23" Margin="81,204,0,0" TextWrapping="Wrap" Text="Bank Amount" VerticalAlignment="Top" Width="372"/>
+                <Button x:Name="StartGameButton1" Content="_Start Game" HorizontalAlignment="Left" Margin="504,204,0,0" VerticalAlignment="Top" Width="75" Height="23" Foreground="#FF191919" Click="StartGameButton_Click">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="White" Offset="0"/>
+                            <GradientStop Color="#FF939393" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="GameControls" Header="" HorizontalAlignment="Left" Margin="0,20,0,0" VerticalAlignment="Top" Height="360" Width="423" BorderBrush="White" Visibility="Hidden">
+            <Grid x:Name="GameControlsGrid" HorizontalAlignment="Left" Height="337" Margin="0,0,-2,0" VerticalAlignment="Top" Width="402">
+                <Button x:Name="RollDiceButton" Content="_Roll Dice" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Height="36" IsEnabled="False" Click="RollDiceButton_Click" Margin="10,10,0,0">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FF6C6C6C" Offset="1"/>
+                            <GradientStop Color="White"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="ResetSessionButton" Content="_Reset Session" HorizontalAlignment="Left" Margin="149,10,0,0" VerticalAlignment="Top" Width="121" Height="36" Click="ResetSession_Click" Visibility="Hidden" IsEnabled="False"/>
+                <Button x:Name="PlayAgain" Content="_Play Again" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top" Width="134" Height="36" IsEnabled="False" Click="PlayAgain_Click" Visibility="Visible"/>
+                <TextBox x:Name="SetBetBox" HorizontalAlignment="Left" Height="23" Margin="10,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="273"/>
+                <Label x:Name="SetBetExplanation" Content="Please enter a bet amount and hit the submit button" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" Foreground="White"/>
+                <Button x:Name="SubmitBet" Content="_Submit" HorizontalAlignment="Left" Margin="317,125,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="SubmitBet_Click"/>
+                <Label x:Name="WinnersLabel" Content="CONGRATULATIONS, YOU WIN!" HorizontalAlignment="Left" Margin="10,153,-10,0" VerticalAlignment="Top" Height="40" Width="402" FontFamily="Times New Roman" FontSize="26.667" Foreground="#FF46FF00"/>
+                <Label x:Name="LosersLabel" Content="SORRY, YOU LOSE :-(" HorizontalAlignment="Left" Margin="10,198,-10,0" VerticalAlignment="Top" Height="41" Width="402" FontFamily="Times New Roman" FontSize="26.667" Foreground="Red"/>
+                <Label x:Name="TotalLossLabel" Content="YOU ARE OUT OF MONEY!&#xD;&#xA;IF YOU WISH TO PLAY AGAIN,&#xD;&#xA;PLEASE RESET THE SESSION" HorizontalAlignment="Left" Margin="10,232,-10,0" VerticalAlignment="Top" Height="105" Width="402" FontFamily="Times New Roman" FontSize="26.667" Foreground="Black"/>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+
+</Window>

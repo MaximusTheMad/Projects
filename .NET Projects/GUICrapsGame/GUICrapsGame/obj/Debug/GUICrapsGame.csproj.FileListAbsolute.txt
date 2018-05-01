@@ -1,0 +1,14 @@
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\bin\Debug\GUICrapsGame.exe.config
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\bin\Debug\GUICrapsGame.exe
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\bin\Debug\GUICrapsGame.pdb
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\obj\Debug\GUICrapsGame.csprojResolveAssemblyReference.cache
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\obj\Debug\MainWindow.g.cs
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\obj\Debug\App.g.cs
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\obj\Debug\GUICrapsGame_MarkupCompile.cache
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\obj\Debug\GUICrapsGame_MarkupCompile.lref
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\obj\Debug\MainWindow.baml
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\obj\Debug\GUICrapsGame.g.resources
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\obj\Debug\GUICrapsGame.Properties.Resources.resources
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\obj\Debug\GUICrapsGame.csproj.GenerateResource.Cache
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\obj\Debug\GUICrapsGame.exe
+c:\users\max\documents\visual studio 2015\Projects\GUICrapsGame\GUICrapsGame\obj\Debug\GUICrapsGame.pdb

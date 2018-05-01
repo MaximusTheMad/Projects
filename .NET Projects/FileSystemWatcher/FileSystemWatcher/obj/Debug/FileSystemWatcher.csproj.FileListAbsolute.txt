@@ -1,0 +1,11 @@
+c:\users\max\documents\visual studio 2015\Projects\FileSystemWatcher\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe.config
+C:\Users\Max\documents\visual studio 2015\Projects\FileSystemWatcher\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe
+C:\Users\Max\documents\visual studio 2015\Projects\FileSystemWatcher\FileSystemWatcher\bin\Debug\FileSystemWatcher.pdb
+C:\Users\Max\documents\visual studio 2015\Projects\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.csprojResolveAssemblyReference.cache
+C:\Users\Max\documents\visual studio 2015\Projects\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.Properties.Resources.resources
+C:\Users\Max\documents\visual studio 2015\Projects\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.csproj.GenerateResource.Cache
+C:\Users\Max\documents\visual studio 2015\Projects\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.exe
+C:\Users\Max\documents\visual studio 2015\Projects\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.pdb
+C:\Users\Max\documents\visual studio 2015\Projects\FileSystemWatcher\FileSystemWatcher\bin\Debug\System.Data.SQLite.dll
+C:\Users\Max\documents\visual studio 2015\Projects\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.FileSystemWatcherForm.resources
+C:\Users\Max\documents\visual studio 2015\Projects\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.DatabaseQuery.resources

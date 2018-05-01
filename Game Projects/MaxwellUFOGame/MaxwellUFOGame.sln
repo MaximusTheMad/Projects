@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxwellUFOGame", "MaxwellUFOGame.csproj", "{2ADB5238-98B1-3832-2240-AABEB78F3E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxwellUFOGame.Editor", "MaxwellUFOGame.Editor.csproj", "{43AD1271-98E2-FFD4-D46C-DB8D38B30AF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ADB5238-98B1-3832-2240-AABEB78F3E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADB5238-98B1-3832-2240-AABEB78F3E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADB5238-98B1-3832-2240-AABEB78F3E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADB5238-98B1-3832-2240-AABEB78F3E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AD1271-98E2-FFD4-D46C-DB8D38B30AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AD1271-98E2-FFD4-D46C-DB8D38B30AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AD1271-98E2-FFD4-D46C-DB8D38B30AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AD1271-98E2-FFD4-D46C-DB8D38B30AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

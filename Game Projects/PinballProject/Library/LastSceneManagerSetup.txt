@@ -1,0 +1,4 @@
+sceneSetups:
+- path: D:/Unity/PapercraftPlatformProject/Assets/Scenes/MainMenu.unity
+  isLoaded: 1
+  isActive: 1

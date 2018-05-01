@@ -1,0 +1,14 @@
+c:\users\max\documents\visual studio 2015\Projects\MailAndDatabase\MailAndDatabase\bin\Debug\MailAndDatabase.exe.config
+c:\users\max\documents\visual studio 2015\Projects\MailAndDatabase\MailAndDatabase\bin\Debug\MailAndDatabase.exe
+c:\users\max\documents\visual studio 2015\Projects\MailAndDatabase\MailAndDatabase\bin\Debug\MailAndDatabase.pdb
+c:\users\max\documents\visual studio 2015\Projects\MailAndDatabase\MailAndDatabase\obj\Debug\MailAndDatabase.csprojResolveAssemblyReference.cache
+c:\users\max\documents\visual studio 2015\Projects\MailAndDatabase\MailAndDatabase\obj\Debug\MailAndDatabase.Properties.Resources.resources
+c:\users\max\documents\visual studio 2015\Projects\MailAndDatabase\MailAndDatabase\obj\Debug\MailAndDatabase.csproj.GenerateResource.Cache
+c:\users\max\documents\visual studio 2015\Projects\MailAndDatabase\MailAndDatabase\obj\Debug\MailAndDatabase.exe
+c:\users\max\documents\visual studio 2015\Projects\MailAndDatabase\MailAndDatabase\obj\Debug\MailAndDatabase.pdb
+C:\Users\Max\Documents\Visual Studio 2015\Projects\MailAndDatabase\MailAndDatabase\obj\Debug\MailAndDatabase.MainForm.resources
+C:\Users\Max\Documents\Visual Studio 2015\Projects\MailAndDatabase\MailAndDatabase\obj\Debug\MailAndDatabase.SetReturnAddressForm.resources
+C:\Users\Max\Documents\Visual Studio 2015\Projects\MailAndDatabase\MailAndDatabase\obj\Debug\MailAndDatabase.AddToDatabaseForm.resources
+C:\Users\Max\Documents\Visual Studio 2015\Projects\MailAndDatabase\MailAndDatabase\bin\Debug\System.Data.SQLite.dll
+C:\Users\Max\Documents\Visual Studio 2015\Projects\MailAndDatabase\MailAndDatabase\obj\Debug\MailAndDatabase.DatabaseQueryForm.resources
+C:\Users\Max\Documents\Visual Studio 2015\Projects\MailAndDatabase\MailAndDatabase\obj\Debug\MailAndDatabase.CustomMessageFilterForm.resources
