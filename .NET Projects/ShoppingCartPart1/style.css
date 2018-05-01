@@ -1,0 +1,207 @@
+﻿body {
+    background-color:white;
+}
+#top-heading {
+    background-color:red;
+    color: white;
+    font-size: 4em;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.headerimage{background-color:black; width:100%; max-height:200px;padding-top:0; margin-top:0; margin-bottom:0; }
+
+.booklistings {
+    display: flex;
+    flex-flow: row wrap;
+    background-color:white;
+    padding:20px;
+    margin:20px;
+}
+
+.TitleLine{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.Author{
+    font-size:16px;
+    font-style:italic;
+}
+
+.StartOfDetails
+{
+    padding:5em 5em 5em 1em;
+    background-color:white;
+
+
+}
+
+.OrderComp
+{
+    padding:5em;
+}
+#ShippingInfo
+{
+    display:block;
+    margin-top:3em;
+    columns:2;
+    background-color:gainsboro;
+}
+.ShippingDetailLabel {
+    margin-right: 3em;
+    clear: left;
+}
+.ShippingDetail {
+    padding-right: 5em;
+}
+.DetailsButton {
+    padding: 4em 3em;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    font-family: 'Rubik Mono One', sans-serif;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+.DetailsButton:hover {
+    background-color: black;
+    color: white;
+}
+.TitleDetails, .AuthorDetails {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    line-height: 2em;
+    
+}
+
+.Table
+{
+    padding:2em;
+    border:5px solid red;
+}
+.DetailButton {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family: 'Rubik Mono One', sans-serif;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+    .DetailButton:hover {
+        background-color: black;
+        color: white;
+        margin:5px;
+    }
+.listing {
+    list-style:none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    text-align:center;
+    margin:20px;
+    padding:0;
+    width:200px;
+    word-wrap:break-word;
+}
+.thumbnail{
+    width:200px;
+    height:200px;
+}
+.navigation {
+    list-style: none;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: 0;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: flex-start;
+    
+}
+    .navigation a {
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        padding: 1em;
+        display: block;
+        border:1px solid rgba(255,255,255,0.3);
+        font-family: 'Rubik Mono One', sans-serif;
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+        .navigation a:hover {
+            color:white;
+            background-color: black;
+        }
+
+#top-heading
+{
+    padding:5px;
+    margin:0;
+}
+     .CartTable
+     {
+         padding:10px;
+     }
+.TitleDetails
+{
+    font-size:3em;
+    font-weight:bold;
+}
+.AuthorDetails
+{
+    font-size:2em;
+    font-style:italic;
+}
+.Description
+{
+    margin-right:50%;
+    font-size:1.5em;
+}
+
+.Price
+{
+    font-size:1.5em;
+}
+ .Title
+ {
+     font-size:14px;
+     font-weight:bold;
+ }
+
+ .CoverImage
+ {
+     width:300px;
+     height:300px;
+ }
+ .BookTableCell
+ {
+     font-size:16px;
+     font-weight:bold;
+     font-style:italic;
+     padding-right:3em;
+ }
+@media all and (max-width: 800px) {
+    .navigation {
+        -webkit-flex-flow: column wrap;
+        flex-flow: column wrap;
+        padding: 0;
+    }
+
+    #top-heading {
+        font-size: 2em;
+    }
+
+    .navigation a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid rgba(255,255,255,0.3);
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+        .navigation a:hover {
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+        }
+}

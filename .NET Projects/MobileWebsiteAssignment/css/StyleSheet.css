@@ -1,0 +1,210 @@
+﻿/**Main Formatting**/
+.section-header {
+    font-size: 6em;
+    padding-right: 40px;
+}
+
+.section-top {
+    background: black;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.sec1 {
+    background-color: #d1d1d1;
+}
+
+.body-content {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.sec1, .sec2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.section-content {
+    font-size: 1.5em;
+    padding-left: 50px;
+    line-height: 50px
+}
+
+.aboutme {
+    background: white;
+    background-origin: border-box;
+}
+
+.sec-title {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+/**********************************************************************/
+
+/************Formating for top of page********************************/
+.header {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-image: url(https://static1.squarespace.com/static/5638e37ae4b0bcbea32a1523/t/584a1698cd0f68ddbf006817/1481250457452/game%2Bdesign.png?format=2500w);
+    background-size: 100% 100%;
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 100px;
+    font-size: 6em;
+    font-family: 'Jura', sans-serif;
+    color: #090;
+}
+
+.SocialMedia {
+    display: block;
+    padding-top: 20px;
+    padding-bottom:1em;
+    background: orange;
+    background-origin: border-box;
+}
+
+    .SocialMedia p {
+        font-size: 2em;
+        font-family: 'Old Standard TT', serif;
+        color: blue;
+    }
+
+.socialButton {
+    width: 4em;
+    height: 4em;
+    max-width: 4em;
+    max-height: 4em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+#profile-image {
+    display: block;
+    border-radius: 50px;
+    max-width: 200px 50%;
+    max-height: 200px 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.header p {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: auto;
+    text-align: center;
+}
+/*************************************************************************************************/
+#AboutMe {
+    font-family: 'Playfair Display', serif;
+}
+
+#Shawshank {
+    background-image: url(http://www.virgeweb.com/rage2/hd/shawshank1.jpg);
+    font-family: 'Old Standard TT', serif;
+}
+
+#WorldWarZ {
+    background: url(http://1.bp.blogspot.com/-ddSJjtUL09c/UbPJLvvEMdI/AAAAAAAABN4/II9D051gJXM/s1600/WorldWarZ_200-s6-c30.jpg) no-repeat center;
+    background-size: cover;
+    background-origin: border-box;
+}
+
+.worldwarz {
+    margin-bottom: 0;
+    font-size: 5em;
+}
+
+#WorldWarZ h1 {
+    color: lawngreen;
+    font-size: 3.75em;
+}
+
+#Yellow-Submarine {
+    background-image: url("http://www.goldmine1969.com/main/wp-content/uploads/toomuch.jpg");
+    background-repeat: no-repeat;
+    color: yellow;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+#YellowSub {
+    font-size: 1.5em;
+    padding-left: 50px;
+    line-height: 50px
+}
+#Monty-Python {
+    background: url("https://secure.static.tumblr.com/2cd165e8d77981fb14fe590481662455/ve3lwl9/2Don1opha/tumblr_static_holy-grail.jpg") no-repeat center;
+    color: yellow;
+    font-family: 'UnifrakturMaguntia', cursive;
+    padding-right: 3em;
+    vertical-align: middle;
+}
+
+
+
+footer {
+    background: orange;
+    background-origin: border-box;
+}
+
+.returnArrow {
+    width: 10em;
+    padding-left: 50%;
+}
+/********Media Queries*************/
+@media(max-width:1000px) {
+    .sec1, .sec2 {
+        flex-flow: row wrap;
+    }
+
+    #WorldWarZ {
+        color: lawngreen;
+        background-size: cover;
+    }
+
+    #Yellow-Submarine {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin: auto;
+    }
+
+    #Monty-Python {
+        padding: 100px;
+        margin: auto;
+    }
+}
+
+@media(max-width:600px) {
+    .section-content {
+        line-height: 80px;
+    }
+
+    .section-header {
+        font-size: 4em;
+    }
+
+    #Yellow-Submarine {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .returnArrow {
+        width: 5em;
+    }
+}
+
+@media(max-width:450px) {
+    .section-content {
+        line-height: 100px;
+    }
+}

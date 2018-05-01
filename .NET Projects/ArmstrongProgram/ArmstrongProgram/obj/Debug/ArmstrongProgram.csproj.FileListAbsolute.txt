@@ -1,0 +1,6 @@
+c:\users\max\documents\visual studio 2015\Projects\ArmstrongProgram\ArmstrongProgram\bin\Debug\ArmstrongProgram.exe.config
+c:\users\max\documents\visual studio 2015\Projects\ArmstrongProgram\ArmstrongProgram\bin\Debug\ArmstrongProgram.exe
+c:\users\max\documents\visual studio 2015\Projects\ArmstrongProgram\ArmstrongProgram\bin\Debug\ArmstrongProgram.pdb
+c:\users\max\documents\visual studio 2015\Projects\ArmstrongProgram\ArmstrongProgram\obj\Debug\ArmstrongProgram.csprojResolveAssemblyReference.cache
+c:\users\max\documents\visual studio 2015\Projects\ArmstrongProgram\ArmstrongProgram\obj\Debug\ArmstrongProgram.exe
+c:\users\max\documents\visual studio 2015\Projects\ArmstrongProgram\ArmstrongProgram\obj\Debug\ArmstrongProgram.pdb

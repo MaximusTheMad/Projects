@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <img src="http://bookstore.ewu.edu/store1/SiteImages/40-SchoolImages/40-Logos%20and%20Icons/40-bookstorelogo_white.gif" class="headerimage" />
+        <h1 id="top-heading">Welcome to the CSCD 379 Bookstore</h1>
+        <ul class="navigation">
+  
+        <li class="headermenu"><a href="#" runat="server" onServerClick="ReturnToMain">Books</a></li>
+        <li class="headermenu"><a href="#" runat="server" onserverclick="ViewCartFromMenu">View Cart</a></li>
+        <li class="headermenu"><a href="#">About CSCD379</a></li>
+        </ul>
+        
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+         
+       
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuItems>
+  <Home display="Home" />
+  <Products display="Products" >
+    <SmallWidgets display="Small Widgets"
+         />
+    <MediumWidgets display="Medium Widgets"
+         />
+    <BigWidgets display="Big Widgets"
+         />
+  </Products>
+  <Support display="Support" >
+    <Downloads display="Downloads"
+       />
+    <FAQs display="FAQs"
+        />
+  </Support>
+  <AboutUs display="About Us" >
+    <Company display="Company"
+         />
+    <Locations display="Location" />
+  </AboutUs>
+</MenuItems>

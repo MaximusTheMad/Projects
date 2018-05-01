@@ -1,0 +1,35 @@
+<Advertisements>
+   <Ad>
+      <ImageUrl>https://s3.amazonaws.com/files.bannersnack.com/blog/2016/05/09084801/Adobe.png</ImageUrl>
+      <NavigateUrl>http://www.adobe.com/</NavigateUrl>
+      <AlternateText>
+         Adobe
+      </AlternateText>
+      <Impressions>20</Impressions>
+      <Keyword>adobe</Keyword>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>https://s3.amazonaws.com/files.bannersnack.com/blog/2016/05/09084839/Amazon-Prime.png</ImageUrl>
+      <NavigateUrl>https://www.amazon.com/Prime-Video/b?node=2676882011</NavigateUrl>
+      <AlternateText>Start your free trial of Amazon Prime</AlternateText>
+      <Impressions>20</Impressions>
+      <Keyword>amazon</Keyword>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>https://s3.amazonaws.com/files.bannersnack.com/blog/2016/05/09085034/AOL.png</ImageUrl>
+      <NavigateUrl>https://www.aol.com/</NavigateUrl>
+      <AlternateText>Get Started with AOL Today</AlternateText>
+      <Impressions>20</Impressions>
+      <Keyword>russia</Keyword>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>https://s3.amazonaws.com/files.bannersnack.com/blog/2016/05/09092451/Mozilla-.png</ImageUrl>
+      <NavigateUrl>https://www.mozilla.org/en-US/</NavigateUrl>
+      <AlternateText>Mozilla FireFox</AlternateText>
+      <Impressions>20</Impressions>
+      <Keyword>mozilla</Keyword>
+   </Ad>
+</Advertisements>

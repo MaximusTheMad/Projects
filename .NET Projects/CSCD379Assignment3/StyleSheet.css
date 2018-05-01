@@ -1,0 +1,96 @@
+﻿body {
+    background-color: #FFFFFF;
+}
+
+#form1
+{
+    background-color:white;
+}
+
+.Table
+{
+    background-color:white;
+    padding-bottom:100px;
+}
+.HeadRow {
+    border-style: solid;
+    border-width: 2px;
+    background-color: deepskyblue;
+    font-size: 24px;
+    padding-right: 2.5em;
+    padding-bottom: 1em;
+}
+
+.HeadCell{
+
+    background-color:chartreuse;
+    width:3em;
+}
+
+
+.HeadCalcCell{
+    text-align:right;
+    background-color:chartreuse;
+    width:3em;
+}
+
+.CalcCell {
+    text-align: right;
+    background-color: white;
+    width: 3em;
+}
+.NormalCell{
+    text-align:left;
+    width:3em;
+    background-color:white;
+}
+
+.AddressRow {
+    font-size: 24px;
+    background-color: #FFFFFF;
+    padding-right: 100%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.TotalsTable
+{
+    text-align:center;
+    padding-left:50%;
+    padding-right:50%;
+    padding-top:5em;
+    padding-bottom:5em;
+    border-style:dotted;
+    border-radius:10px;
+}
+
+.TotalHeader
+{
+    background-color:forestgreen;
+    color:white;
+
+
+}
+
+.totalList
+{
+    background-color:white;
+
+}
+
+.TotalHeadCell, .TotalCell {
+    font-size: 24pt;
+    padding: 12px;
+}
+
+.TotalHeadCell
+{
+    background-color:forestgreen;
+    color:white;
+    
+}
+
+.TotalCell
+{
+    background-color:white;
+}
